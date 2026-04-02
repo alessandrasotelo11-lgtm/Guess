@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: guess
+    runtime: node
+    plan: free
+    autoDeploy: true
+    buildCommand: ""
+    startCommand: node server.js
+    healthCheckPath: /health
