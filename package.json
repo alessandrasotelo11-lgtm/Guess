@@ -1,0 +1,12 @@
+{
+  "name": "guess",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Hangman-style browser game powered by Node.js and TypeScript.",
+  "type": "module",
+  "scripts": {
+    "build:client": "tsc --project tsconfig.json",
+    "build": "npm run build:client",
+    "start": "node server.js"
+  }
+}
